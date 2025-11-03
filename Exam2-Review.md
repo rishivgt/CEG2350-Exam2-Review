@@ -82,13 +82,13 @@
 
 **Q12: What does the `pwd` command do?**
    - [ ] Powers down the system
-   - [ ] Prints the working directory
+   - [X] Prints the working directory
    - [ ] Pauses while downloading
    - [ ] Previews word documents
 
 **Q13: Which command would you use to move a file from one location to another?**
    - [ ] cp
-   - [ ] mv
+   - [X] mv
    - [ ] transfer
    - [ ] relocate
 
@@ -107,7 +107,7 @@
 **Q15: What is the correct syntax to define a variable in Bash?**  
    - [ ] `var name = "John"`  
    - [ ] `name := "John"`  
-   - [ ] `name="John"`  
+   - [X] `name="John"`  
    - [ ] `let name = "John"`  
 
 **Q16: What line should appear at the beginning of a bash script to specify the interpreter?**
@@ -119,7 +119,7 @@
 ### Conditional Statements
 
 **Q17: What is the correct syntax for an if-else statement in Bash?**  
-   - [ ]  
+   - [X]  
      ```bash
      if [ "$var" -eq 1 ]
      then
@@ -292,7 +292,7 @@
 
 **Q35: What is the default file extension for bash scripts?**  
    - [ ] .txt  
-   - [ ] .sh  
+   - [X] .sh  
    - [ ] .bash  
    - [ ] .bashscript  
 
@@ -316,13 +316,13 @@
 
 **Q39: What does the `chown` command do?**
    - [ ] Changes file permissions
-   - [ ] Changes file ownership
+   - [X] Changes file ownership
    - [ ] Changes file location
    - [ ] Changes file name
 
 **Q40: In the permission string `-rwxr-xr--`, what permissions does the group have?**
    - [ ] Read, write, execute
-   - [ ] Read and execute
+   - [X] Read and execute
    - [ ] Read only
    - [ ] Execute only
 
@@ -605,7 +605,7 @@ ID,Name,Department,Salary,JoinDate
 ## 13. Disk and Storage Management:
 
 **Q89: What command lists block devices?**
-   - [ ] `lsblk`
+   - [X] `lsblk`
    - [ ] `listdisk`
    - [ ] `showdisk`
    - [ ] `blkinfo`
@@ -703,7 +703,7 @@ ID,Name,Department,Salary,JoinDate
    - [ ] `/boot/mounts.conf`
 
 **Q107: What are three common filesystem types?**
-   - [ ] NTFS, FAT32, ext4
+   - [X] NTFS, FAT32, ext4
    - [ ] TCP, UDP, HTTP
    - [ ] MBR, GPT, LVM
    - [ ] BIOS, UEFI, GRUB
