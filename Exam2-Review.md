@@ -15,13 +15,13 @@
 **Q2: Which shell is commonly used in Windows for command-line operations?**  
    - [ ] zsh
    - [ ] bash
-   - [ ] PowerShell
+   - [x] PowerShell
    - [ ] sh  
 
 **Q3: What is the default shell for most modern Linux distributions?**
    - [ ] sh
    - [ ] csh
-   - [ ] bash
+   - [x] bash
    - [ ] fish
 
 ---
@@ -30,7 +30,7 @@
 
 **Q4: What is the primary use of SSH?**  
    - [ ] To browse the internet securely
-   - [ ] To establish a secure, encrypted connection to remote systems
+   - [X] To establish a secure, encrypted connection to remote systems
    - [ ] To copy files between systems
    - [ ] To back up system files     
 
@@ -48,7 +48,7 @@
 
 **Q7: What is the default port for SSH connections?**
    - [ ] 21
-   - [ ] 22
+   - [X] 22
    - [ ] 80
    - [ ] 443
 
@@ -57,38 +57,38 @@
 ## 3. Files, Directories, and OS Structure:
 
 **Q8: What command is used to list files and directories in Linux?**  
-   - [ ] ls
+   - [X] ls
    - [ ] dir
    - [ ] list
    - [ ] show  
 
 **Q9: What command creates a new directory in Linux?**  
-   - [ ] mkdir
+   - [X] mkdir
    - [ ] mkdir -new  
    - [ ] touch
    - [ ] newdir  
 
 **Q10: What command is used to remove a file in Linux?**  
-   - [ ] rm
+   - [X] rm
    - [ ] erase
    - [ ] del
    - [ ] remove  
 
 **Q11: Which command in Linux is used to copy files?**  
    - [ ] mv
-   - [ ] cp
+   - [X] cp
    - [ ] cat
    - [ ] ln 
 
 **Q12: What does the `pwd` command do?**
    - [ ] Powers down the system
-   - [ ] Prints the working directory
+   - [X] Prints the working directory
    - [ ] Pauses while downloading
    - [ ] Previews word documents
 
 **Q13: Which command would you use to move a file from one location to another?**
    - [ ] cp
-   - [ ] mv
+   - [X] mv
    - [ ] transfer
    - [ ] relocate
 
@@ -100,7 +100,7 @@
 
 **Q14: Which of the following is a common shell used in Linux scripting?**  
    - [ ] PowerShell  
-   - [ ] Bash  
+   - [X] Bash  
    - [ ] C Shell  
    - [ ] Python  
 
@@ -112,7 +112,7 @@
 
 **Q16: What line should appear at the beginning of a bash script to specify the interpreter?**
    - [ ] `#/bin/bash`
-   - [ ] `#!/bin/bash`
+   - [X] `#!/bin/bash`
    - [ ] `# bash interpreter`
    - [ ] `<bash>`
 
@@ -292,7 +292,7 @@
 
 **Q35: What is the default file extension for bash scripts?**  
    - [ ] .txt  
-   - [ ] .sh  
+   - [x] .sh  
    - [ ] .bash  
    - [ ] .bashscript  
 
@@ -303,7 +303,7 @@
    - [ ] Renames a file  
 
 **Q37: How can you make a bash script executable?**  
-   - [ ] chmod +x script.sh  
+   - [x] chmod +x script.sh  
    - [ ] bash script.sh  
    - [ ] make script.sh executable  
    - [ ] execute script.sh  
