@@ -8,7 +8,7 @@
 
 **Q1: Which of the following is a shell used in Linux?**  
    - [ ] PowerShell
-   - [ ] bash
+   - [x] bash
    - [ ] cmd
    - [ ] Z shell  
 
@@ -36,13 +36,13 @@
 
 **Q5: Which of the following is a requirement for SSH authentication?**  
    - [ ] Password encryption
-   - [ ] Public and private key pairs
+   - [x] Public and private key pairs
    - [ ] Username and domain name
    - [ ] Static IP address
 
 **Q6: When using SSH key authentication, which key should NEVER be shared?**
    - [ ] Public key
-   - [ ] Private key
+   - [x] Private key
    - [ ] Host key
    - [ ] Session key
 
@@ -107,7 +107,7 @@
 **Q15: What is the correct syntax to define a variable in Bash?**  
    - [ ] `var name = "John"`  
    - [ ] `name := "John"`  
-   - [ ] `name="John"`  
+   - [x] `name="John"`  
    - [ ] `let name = "John"`  
 
 **Q16: What line should appear at the beginning of a bash script to specify the interpreter?**
@@ -204,7 +204,7 @@
 
 **Q22: How do you check if a file exists in a Bash script?**  
    - [ ] `[ -e filename ]`  
-   - [ ] `if file_exists(filename)`  
+   - [x] `if file_exists(filename)`  
    - [ ] `check_file filename`  
    - [ ] `test -f filename`  
 
@@ -216,7 +216,7 @@
 
 **Q24: What test flag checks if a path is a directory?**
    - [ ] `-f`
-   - [ ] `-d`
+   - [x] `-d`
    - [ ] `-e`
    - [ ] `-dir`
 
@@ -246,24 +246,24 @@
 
 **Q28: What does the `git commit -m "message"` command do?**  
    - [ ] Stages changes for commit  
-   - [ ] Commits staged changes with a descriptive message  
+   - [x] Commits staged changes with a descriptive message  
    - [ ] Pushes committed changes to a remote repository  
    - [ ] Creates a new branch 
 
 **Q29: What command is used to check the status of a Git repository?**  
-   - [ ] git status  
+   - [x] git status  
    - [ ] git check  
    - [ ] git info  
    - [ ] git logs  
 
 **Q30: What does the `git pull` command do?**  
-   - [ ] Downloads and merges changes from a remote repository  
+   - [x] Downloads and merges changes from a remote repository  
    - [ ] Creates a new commit  
    - [ ] Uploads local changes to the remote repository  
    - [ ] Clones a remote repository  
 
 **Q31: Which command would you use to stage files for commit in Git?**  
-   - [ ] git push  
+   - [x] git push  
    - [ ] git stage  
    - [ ] git add  
    - [ ] git merge  
@@ -271,12 +271,12 @@
 **Q32: What does the `git clone` command do?**  
    - [ ] Creates a new branch  
    - [ ] Downloads a remote repository
-   - [ ] Commits changes to the repository  
+   - [x] Commits changes to the repository  
    - [ ] Adds files to the repository  
 
 **Q33: What command shows the commit history of a repository?**
    - [ ] git history
-   - [ ] git log
+   - [x] git log
    - [ ] git commits
    - [ ] git show
 
@@ -284,7 +284,7 @@
    - [ ] git undo
    - [ ] git revert
    - [ ] git restore
-   - [ ] git reset
+   - [x] git reset
 
 ---
 
@@ -298,7 +298,7 @@
 
 **Q36: What does the `chmod` command do in Linux?**  
    - [ ] Changes the ownership of a file  
-   - [ ] Changes the permissions of a file  
+   - [x] Changes the permissions of a file  
    - [ ] Moves a file to a new directory
    - [ ] Renames a file  
 
@@ -343,7 +343,7 @@
    ```bash
    chmod 755 script.sh
    ```
-   - [ ] Grants read, write, and execute permissions to all users  
+   - [x] Grants read, write, and execute permissions to all users  
    - [ ] Grants execute permission to everyone, but write permission only to the owner  
    - [ ] Deletes the file `script.sh`  
    - [ ] Copies `script.sh` to another directory  
@@ -552,7 +552,7 @@ ID,Name,Department,Salary,JoinDate
 
 **Q69: What command shows currently running processes?**
    - [ ] `show processes`
-   - [ ] `ps`
+   - [x] `ps`
    - [ ] `list`
    - [ ] `proc`
 
