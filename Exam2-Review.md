@@ -119,7 +119,7 @@
 ### Conditional Statements
 
 **Q17: What is the correct syntax for an if-else statement in Bash?**  
-   - [ ]  
+   - [x]  
      ```bash
      if [ "$var" -eq 1 ]
      then
@@ -157,12 +157,12 @@
 
 **Q18: Which operator is used for string comparison in Bash?**  
    - [ ] `==`  
-   - [ ] `-eq`  
+   - [x] `-eq`  
    - [ ] `===`  
    - [ ] `!=`  
 
 **Q19: Which test operator checks if a number is greater than another in bash?**
-   - [ ] `-gt`
+   - [x] `-gt`
    - [ ] `-ge`
    - [ ] `>`
    - [ ] `-lt`
@@ -170,7 +170,7 @@
 ### Loops
 
 **Q20: What is the correct syntax for a `for` loop in Bash?**  
-   - [ ]  
+   - [x]  
      ```bash
      for i in {1..5}; do
          echo $i
@@ -196,7 +196,7 @@
 
 **Q21: What does a `while` loop do in bash?**
    - [ ] Executes once then exits
-   - [ ] Repeats commands as long as a condition is true
+   - [x] Repeats commands as long as a condition is true
    - [ ] Only works with numeric values
    - [ ] Runs in the background
 
@@ -209,7 +209,7 @@
    - [ ] `test -f filename`  
 
 **Q23: Which command appends output to a file instead of overwriting it?**  
-   - [ ] `echo "Hello" > file.txt`  
+   - [x] `echo "Hello" > file.txt`  
    - [ ] `echo "Hello" >> file.txt`  
    - [ ] `echo "Hello" <<< file.txt`  
    - [ ] `write "Hello" to file.txt`  
@@ -226,17 +226,17 @@
    - [ ] `input`  
    - [ ] `read`  
    - [ ] `scan`  
-   - [ ] `get`  
+   - [x] `get`  
 
 **Q26: How would you store user input into a variable called `username` in Bash?**  
    - [ ] `read username`  
    - [ ] `input username`  
-   - [ ] `username = input()`  
+   - [x] `username = input()`  
    - [ ] `get username`  
 
 **Q27: What does the `getopts` command do in a bash script?**
    - [ ] Gets system options
-   - [ ] Parses command-line options and arguments
+   - [x] Parses command-line options and arguments
    - [ ] Optimizes script performance
    - [ ] Gets user preferences
 
@@ -810,18 +810,18 @@ ID,Name,Department,Salary,JoinDate
    - [ ] Semicolon (;)
    - [ ] Colon (:)
    - [ ] Comma (,)
-   - [ ] Pipe (|)
+   - [x] Pipe (|)
 
 **Q130: If a command is *not* in your PATH, how can you execute it from the current directory?**
    - [ ] `command_name`
-   - [ ] `./command_name`
+   - [x] `./command_name`
    - [ ] `run command_name`
    - [ ] `exec command_name`
 
 **Q131: What does the `which` command do?**
    - [ ] Shows which user is logged in
    - [ ] Shows the full path to an executable
-   - [ ] Shows which processes are running
+   - [x] Shows which processes are running
    - [ ] Shows which files are open
 
 ---
@@ -830,7 +830,7 @@ ID,Name,Department,Salary,JoinDate
 
 **Q133: What is an alias in bash?**
    - [ ] A shortcut name for a command or series of commands
-   - [ ] An alternative username
+   - [x] An alternative username
    - [ ] A symbolic link
    - [ ] A variable
 
@@ -840,13 +840,13 @@ ID,Name,Department,Salary,JoinDate
 
 **Q135: Where should you save aliases permanently?**
    - [ ] `/etc/profile`
-   - [ ] `/etc/aliases`
+   - [x] `/etc/aliases`
    - [ ] `~/.bash_aliases`
 
 
 **Q137: If you have a program called "shivermetimbers" but want to type "timbers" instead, what's a good solution?**
    - [ ] Rename the file
-   - [ ] Create an alias
+   - [x] Create an alias
    - [ ] Create a sudo command
    - [ ] Both b and c
 
@@ -906,14 +906,14 @@ ID,Name,Department,Salary,JoinDate
 
 **Q161: How do you switch to the root user?**
    - [ ] `sudo su`
-   - [ ] `su root`
+   - [x] `su root`
    - [ ] `su -`
    - [ ] All of the above
 
 **Q162: What permission is needed to execute a script?**
    - [ ] Read
    - [ ] Write
-   - [ ] Execute
+   - [x] Execute
    - [ ] All of the above
 
 **Q163: What does `chmod u+x file.sh` do?**
