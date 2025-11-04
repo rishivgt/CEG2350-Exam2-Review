@@ -310,19 +310,19 @@
 
 **Q38: What does the `cat` command do in Linux?**  
    - [ ] Creates a new file  
-   - [ ] Displays the content of a file  
+   - [x] Displays the content of a file  
    - [ ] Copies a file  
    - [ ] Deletes a file  
 
 **Q39: What does the `chown` command do?**
    - [ ] Changes file permissions
-   - [ ] Changes file ownership
+   - [x] Changes file ownership
    - [ ] Changes file location
    - [ ] Changes file name
 
 **Q40: In the permission string `-rwxr-xr--`, what permissions does the group have?**
    - [ ] Read, write, execute
-   - [ ] Read and execute
+   - [x] Read and execute
    - [ ] Read only
    - [ ] Execute only
 
@@ -334,7 +334,7 @@
    ```bash
    ls -l
    ```
-   - [ ] Lists all files in the current directory, including hidden ones  
+   - [x] Lists all files in the current directory, including hidden ones  
    - [ ] Lists files in a long format with detailed information  
    - [ ] Deletes all files in the current directory  
    - [ ] Creates a new directory  
@@ -353,7 +353,7 @@
    grep "error" logfile.txt
    ```
    - [ ] Replaces all occurrences of "error" with "logfile"  
-   - [ ] Searches for the word "error" in `logfile.txt` and displays matching lines  
+   - [x] Searches for the word "error" in `logfile.txt` and displays matching lines  
    - [ ] Deletes lines containing "error" from `logfile.txt`  
    - [ ] Appends "error" to `logfile.txt`  
 
@@ -361,7 +361,7 @@
    ```bash
    df -h
    ```
-   - [ ] Displays disk space usage in human-readable format  
+   - [x] Displays disk space usage in human-readable format  
    - [ ] Formats the disk for new installations  
    - [ ] Lists all directories with their size  
    - [ ] Defragments the file system  
@@ -380,7 +380,7 @@
    echo "Hello World" > greetings.txt
    ```
    - [ ] Appends "Hello World" to `greetings.txt`  
-   - [ ] Overwrites `greetings.txt` with "Hello World"  
+   - [x] Overwrites `greetings.txt` with "Hello World"  
    - [ ] Prints "Hello World" to the terminal  
    - [ ] Creates a backup of `greetings.txt`  
 
@@ -391,12 +391,12 @@
    - [ ] Displays the last 5 lines of `myfile.txt`  
    - [ ] Displays the first 5 lines of `myfile.txt`  
    - [ ] Deletes the first 5 lines of `myfile.txt`  
-   - [ ] Creates a new file with only the first 5 lines  
+   - [x] Creates a new file with only the first 5 lines  
 
 **Q48: What does the command `tail -f logfile.txt` do?**
    - [ ] Shows the last 10 lines and exits
    - [ ] Continuously monitors and displays new lines added to the file
-   - [ ] Displays file metadata
+   - [x] Displays file metadata
    - [ ] Deletes the last few lines
 
 **Q49: What does `du -sh /home/user` display?**
