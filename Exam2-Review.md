@@ -156,7 +156,7 @@
      ```  
 
 **Q18: Which operator is used for string comparison in Bash?**  
-   - [ ] `==`  
+   - [Correct] `==`  
    - [x] `-eq`  
    - [ ] `===`  
    - [ ] `!=`  
@@ -203,14 +203,14 @@
 ### File Handling
 
 **Q22: How do you check if a file exists in a Bash script?**  
-   - [ ] `[ -e filename ]`  
+   - [correct] `[ -e filename ]`  
    - [x] `if file_exists(filename)`  
    - [ ] `check_file filename`  
    - [ ] `test -f filename`  
 
 **Q23: Which command appends output to a file instead of overwriting it?**  
    - [x] `echo "Hello" > file.txt`  
-   - [ ] `echo "Hello" >> file.txt`  
+   - [correct] `echo "Hello" >> file.txt`  
    - [ ] `echo "Hello" <<< file.txt`  
    - [ ] `write "Hello" to file.txt`  
 
@@ -224,12 +224,12 @@
 
 **Q25: Which command is used to take user input in a Bash script?**  
    - [ ] `input`  
-   - [ ] `read`  
+   - [correct] `read`  
    - [ ] `scan`  
    - [x] `get`  
 
 **Q26: How would you store user input into a variable called `username` in Bash?**  
-   - [ ] `read username`  
+   - [correct] `read username`  
    - [ ] `input username`  
    - [x] `username = input()`  
    - [ ] `get username`  
@@ -265,12 +265,12 @@
 **Q31: Which command would you use to stage files for commit in Git?**  
    - [x] git push  
    - [ ] git stage  
-   - [ ] git add  
+   - [correct] git add  
    - [ ] git merge  
 
 **Q32: What does the `git clone` command do?**  
    - [ ] Creates a new branch  
-   - [ ] Downloads a remote repository
+   - [correct] Downloads a remote repository
    - [x] Commits changes to the repository  
    - [ ] Adds files to the repository  
 
@@ -283,7 +283,7 @@
 **Q34: If you want to undo changes in your working directory, which command should you use?**
    - [ ] git undo
    - [ ] git revert
-   - [ ] git restore
+   - [correct] git restore
    - [x] git reset
 
 ---
@@ -335,7 +335,7 @@
    ls -l
    ```
    - [x] Lists all files in the current directory, including hidden ones  
-   - [ ] Lists files in a long format with detailed information  
+   - [correct] Lists files in a long format with detailed information  
    - [ ] Deletes all files in the current directory  
    - [ ] Creates a new directory  
 
@@ -344,7 +344,7 @@
    chmod 755 script.sh
    ```
    - [x] Grants read, write, and execute permissions to all users  
-   - [ ] Grants execute permission to everyone, but write permission only to the owner  
+   - [correct] Grants execute permission to everyone, but write permission only to the owner  
    - [ ] Deletes the file `script.sh`  
    - [ ] Copies `script.sh` to another directory  
 
@@ -371,7 +371,7 @@
    sed 's/cat/dog/g' animals.txt
    ```
    - [ ] Adds "dog" to every line in `animals.txt`  
-   - [ ] Replaces all occurrences of "cat" with "dog" in `animals.txt`  
+   - [x] Replaces all occurrences of "cat" with "dog" in `animals.txt`  
    - [ ] Deletes lines containing "cat"  
    - [ ] Appends "cat" to the end of each line  
 
@@ -389,18 +389,18 @@
    head -n 5 myfile.txt
    ```
    - [ ] Displays the last 5 lines of `myfile.txt`  
-   - [ ] Displays the first 5 lines of `myfile.txt`  
+   - [correct] Displays the first 5 lines of `myfile.txt`  
    - [ ] Deletes the first 5 lines of `myfile.txt`  
    - [x] Creates a new file with only the first 5 lines  
 
 **Q48: What does the command `tail -f logfile.txt` do?**
    - [ ] Shows the last 10 lines and exits
-   - [ ] Continuously monitors and displays new lines added to the file
+   - [correct] Continuously monitors and displays new lines added to the file
    - [x] Displays file metadata
    - [ ] Deletes the last few lines
 
 **Q49: What does `du -sh /home/user` display?**
-   - [ ] Disk usage summary of /home/user in human-readable format
+   - [x] Disk usage summary of /home/user in human-readable format
    - [ ] Available disk space
    - [ ] File count in directory
    - [ ] Disk partitions
@@ -430,37 +430,37 @@ ID,Name,Department,Salary,JoinDate
 
 **Q50: Find all employees in the "Engineering" department.**  
    - [ ] `grep "HR" employees.csv`  
-   - [ ] `grep "Engineering" employees.csv`  
+   - [correct] `grep "Engineering" employees.csv`  
    - [ ] `grep -v "Engineering" employees.csv`  
-   - [ ] `grep "Engineering" | awk '{print $1}'`  
+   - [x] `grep "Engineering" | awk '{print $1}'`  
 
 **Q51: Display lines containing "HR" employees.**  
    - [ ] `grep "Marketing" employees.csv`  
-   - [ ] `grep "HR" employees.csv`  
+   - [correct] `grep "HR" employees.csv`  
    - [ ] `grep -i "HR" employees.csv`  
-   - [ ] `grep -w "HR" employees.csv`  
+   - [x] `grep -w "HR" employees.csv`  
 
 **Q52: Find employees whose name contains "John".**  
    - [ ] `grep "John" employees.csv`  
-   - [ ] `grep -i "john" employees.csv`  
+   - [x] `grep -i "john" employees.csv`  
    - [ ] `grep "^John" employees.csv`  
    - [ ] `grep "John$" employees.csv`  
 
 **Q53: Show lines with a salary greater than 70000 (you may need to refine this after `grep` using `awk`).**  
    - [ ] `grep "70000" employees.csv`  
-   - [ ] `grep -E "[7-9][0-9]{4}" employees.csv | awk '$4 > 70000'`  
+   - [x] `grep -E "[7-9][0-9]{4}" employees.csv | awk '$4 > 70000'`  
    - [ ] `grep -v "70000" employees.csv`  
    - [ ] `grep "Salary > 70000" employees.csv`  
 
 **Q54: Search for employees who joined in the year 2019.**  
    - [ ] `grep "2019" employees.csv`  
    - [ ] `grep "^2019" employees.csv`  
-   - [ ] `grep -w "2019" employees.csv`  
-   - [ ] `grep -E "2019-[0-9]{2}-[0-9]{2}" employees.csv`  
+   - [x] `grep -w "2019" employees.csv`  
+   - [correct] `grep -E "2019-[0-9]{2}-[0-9]{2}" employees.csv`  
 
 **Q55: What does the `-v` flag do in grep?**
-   - [ ] Shows version information
-   - [ ] Inverts the match (shows non-matching lines)
+   - [x] Shows version information
+   - [correct] Inverts the match (shows non-matching lines)
    - [ ] Enables verbose mode
    - [ ] Validates the pattern
 
@@ -468,80 +468,80 @@ ID,Name,Department,Salary,JoinDate
 
 **Q56: Replace "HR" with "Human Resources" in the dataset.**  
    - [ ] `sed 's/Human Resources/HR/g' employees.csv`  
-   - [ ] `sed 's/HR/Human Resources/g' employees.csv`  
-   - [ ] `sed -i 's/HR/Human Resources/g' employees.csv`  
+   - [x] `sed 's/HR/Human Resources/g' employees.csv`  
+   - [correct] `sed -i 's/HR/Human Resources/g' employees.csv`  
    - [ ] `sed 's/HR/Human Resources/' employees.csv`  
 
 **Q57: Remove the "Marketing" department from the dataset.**  
-   - [ ] `sed '/Marketing/d' employees.csv`  
+   - [correct] `sed '/Marketing/d' employees.csv`  
    - [ ] `sed 's/Marketing//g' employees.csv`  
-   - [ ] `sed -i 's/Marketing//g' employees.csv`  
+   - [x] `sed -i 's/Marketing//g' employees.csv`  
    - [ ] `sed '/Marketing/p' employees.csv`  
 
 **Q58: Add a "USD" suffix to all salary values.**  
    - [ ] `sed 's/$/ USD/' employees.csv`  
-   - [ ] `sed -E 's/(,[0-9]+)/\1 USD/' employees.csv`  
+   - [correct] `sed -E 's/(,[0-9]+)/\1 USD/' employees.csv`  
    - [ ] `sed 's/$/USD/' employees.csv`  
-   - [ ] `sed 's/SALARY/USD/g' employees.csv`  
+   - [x] `sed 's/SALARY/USD/g' employees.csv`  
 
 **Q59: Swap the "Name" and "Department" columns (assume a simple text transformation).**  
-   - [ ] `sed -E 's/(.*),(.*),(.*)/\2,\1,\3/' employees.csv`  
+   - [x] `sed -E 's/(.*),(.*),(.*)/\2,\1,\3/' employees.csv`  
    - [ ] `sed 's/Name,Department/Department,Name/g' employees.csv`  
    - [ ] `sed -E 's/(.*),(.*),(.*)/\3,\1,\2/' employees.csv`  
    - [ ] `sed -i 's/Name,Department/Department,Name/g' employees.csv`  
 
 **Q60: Remove the header row from the file.**  
-   - [ ] `sed -i '1d' employees.csv`  
-   - [ ] `sed -i 's/HEADER//' employees.csv`  
+   - [correct] `sed -i '1d' employees.csv`  
+   - [x] `sed -i 's/HEADER//' employees.csv`  
    - [ ] `sed -E 's/^Header,//' employees.csv`  
    - [ ] `sed 's/ID,Name,Department,Salary,JoinDate//g' employees.csv`  
 
 **Q61: What does the `-i` flag do in sed?**
    - [ ] Ignores case
-   - [ ] Edits the file in-place
+   - [correct] Edits the file in-place
    - [ ] Shows line numbers
-   - [ ] Enables interactive mode
+   - [x] Enables interactive mode
 
 ### `awk` Questions
 
 **Q62: Print only the names of the employees.**  
    - [ ] `awk '{print $1}' employees.csv`  
-   - [ ] `awk -F',' '{print $2}' employees.csv`  
+   - [correct] `awk -F',' '{print $2}' employees.csv`  
    - [ ] `awk '{print $2}' employees.csv`  
-   - [ ] `awk -F',' '{print $1}' employees.csv`  
+   - [x] `awk -F',' '{print $1}' employees.csv`  
 
 **Q63: Show the name and salary of employees from the "Engineering" department.**  
-   - [ ] `awk -F',' '$3=="Engineering" {print $2, $4}' employees.csv`  
+   - [x] `awk -F',' '$3=="Engineering" {print $2, $4}' employees.csv`  
    - [ ] `awk -F',' '$2=="Engineering" {print $1, $3}' employees.csv`  
    - [ ] `awk -F',' '$4=="Engineering" {print $2, $3}' employees.csv`  
    - [ ] `awk -F',' '$3=="Engineering" {print $1, $2}' employees.csv`  
 
 **Q64: Calculate and print the average salary of all employees.**  
-   - [ ] `awk -F',' '{total+=$4; count++} END {print total/count}' employees.csv`  
+   - [x] `awk -F',' '{total+=$4; count++} END {print total/count}' employees.csv`  
    - [ ] `awk -F',' '{total+=$3; count++} END {print total/count}' employees.csv`  
    - [ ] `awk -F',' '{total+=$4} END {print total/NR}' employees.csv`  
    - [ ] `awk -F',' '{print sum($4)/count}' employees.csv`  
 
 **Q65: Find the highest salary in the dataset.**  
    - [ ] `awk -F',' 'max<$4 {max=$4} END {print max}' employees.csv`  
-   - [ ] `awk -F',' '{if ($4 > max) max=$4} END {print max}' employees.csv`  
+   - [x] `awk -F',' '{if ($4 > max) max=$4} END {print max}' employees.csv`  
    - [ ] `awk -F',' 'max=$4 {if ($4 > max) max=$4} END {print max}' employees.csv`  
    - [ ] `awk -F',' '{print max($4)}' employees.csv`  
 
 **Q66: Print the names of employees who joined after 2020.**  
-   - [ ] `awk -F',' '$5 ~ /202[1-9]/ {print $2}' employees.csv`  
+   - [x] `awk -F',' '$5 ~ /202[1-9]/ {print $2}' employees.csv`  
    - [ ] `awk -F',' '$5 > 2020 {print $2}' employees.csv`  
    - [ ] `awk -F',' '$5 ~ /^202[1-9]/ {print $2}' employees.csv`  
    - [ ] `awk -F',' '$5 >= 2020 {print $2}' employees.csv`  
 
 **Q67: What does the `-F` flag specify in awk?**
    - [ ] File to process
-   - [ ] Field separator
+   - [x] Field separator
    - [ ] Function to execute
    - [ ] Filter pattern
 
 **Q68: In awk, what does `NF` represent?**
-   - [ ] Number of fields in current record
+   - [x] Number of fields in current record
    - [ ] New file indicator
    - [ ] Next field to process
    - [ ] Numeric format
@@ -558,29 +558,29 @@ ID,Name,Department,Salary,JoinDate
 
 **Q70: What does the `kill` command do?**
    - [ ] Terminates the system
-   - [ ] Sends a signal to a process
+   - [x] Sends a signal to a process
    - [ ] Deletes a file
    - [ ] Stops all processes
 
 **Q71: Given a process with PID 1234, write the command to terminate it forcefully.**
 
-**Answer:** ________________________________
+**Answer:** __________`kill -9 1234`______________________
 
 **Q72: What does a zombie process indicate?**
    - [ ] A process consuming too much CPU
-   - [ ] A process that has completed but still has an entry in the process table
+   - [x] A process that has completed but still has an entry in the process table
    - [ ] A virus on the system
    - [ ] A sleeping process
 
 **Q73: What does the `top` command do?**
    - [ ] Shows the top files by size
-   - [ ] Displays real-time system resource usage and processes
+   - [x] Displays real-time system resource usage and processes
    - [ ] Lists the most recently modified files
    - [ ] Shows disk usage
 
 **Q74: In `ps` output, what does the STAT column show?**
    - [ ] Process statistics
-   - [ ] Process state/status
+   - [x] Process state/status
    - [ ] Start time
    - [ ] CPU percentage
 
@@ -590,13 +590,13 @@ ID,Name,Department,Salary,JoinDate
 
 **Q83: What does RAM stand for?**
    - [ ] Read Access Memory
-   - [ ] Random Access Memory
+   - [x] Random Access Memory
    - [ ] Rapid Application Memory
    - [ ] Remote Access Module
 
 **Q84: Which component is responsible for executing program instructions?**
    - [ ] RAM
-   - [ ] CPU
+   - [x] CPU
    - [ ] GPU
    - [ ] Motherboard
 
@@ -605,19 +605,19 @@ ID,Name,Department,Salary,JoinDate
 ## 13. Disk and Storage Management:
 
 **Q89: What command lists block devices?**
-   - [ ] `lsblk`
+   - [x] `lsblk`
    - [ ] `listdisk`
    - [ ] `showdisk`
    - [ ] `blkinfo`
 
 **Q91: Write a command to view the partition table of `/dev/xvda`.**
 
-**Answer:** ________________________________
+**Answer:** ______`sudo fdisk -l /dev/xvda`__________________________
 
 **Q93: Which storage technology is typically fastest?**
    - [ ] HDD
    - [ ] SATA SSD
-   - [ ] NVMe SSD
+   - [x] NVMe SSD
    - [ ] USB flash drive
 
 ---
@@ -626,30 +626,30 @@ ID,Name,Department,Salary,JoinDate
 
 **Q94: What is the primary function of a partition table?**
    - [ ] To process data
-   - [ ] To define how disk space is divided
+   - [x] To define how disk space is divided
    - [ ] To encrypt data
    - [ ] To backup files
 
 **Q95: What is the maximum number of primary partitions in MBR?**
    - [ ] 2
-   - [ ] 4
+   - [x] 4
    - [ ] 8
    - [ ] Unlimited
 
 **Q96: What is the maximum disk size that MBR supports?**
    - [ ] 1 TB
-   - [ ] 2 TB
+   - [x] 2 TB
    - [ ] 4 TB
    - [ ] 8 TB
 
 **Q97: What partition scheme should be used for disks larger than 2TB?**
    - [ ] MBR
-   - [ ] GPT
+   - [x] GPT
    - [ ] FAT32
    - [ ] NTFS
 
 **Q98: How does GPT provide redundancy?**
-   - [ ] It stores multiple copies of the partition table
+   - [x] It stores multiple copies of the partition table
    - [ ] It uses RAID
    - [ ] It compresses data
    - [ ] It doesn't provide redundancy
@@ -658,17 +658,17 @@ ID,Name,Department,Salary,JoinDate
    - [ ] `fdisk`
    - [ ] `gdisk`
    - [ ] `parted`
-   - [ ] All of the above
+   - [x] All of the above
 
 **Q100: What command checks if a disk uses MBR or GPT?**
-   - [ ] `parted -l`
+   - [x] `parted -l`
    - [ ] `disktype`
    - [ ] `lsblk -f`
    - [ ] Both a and c
 
 **Q101: Which boot firmware is typically paired with GPT?**
    - [ ] BIOS
-   - [ ] UEFI
+   - [x] UEFI
    - [ ] MBR
    - [ ] GRUB
 
@@ -678,40 +678,40 @@ ID,Name,Department,Salary,JoinDate
 
 **Q102: What must you do before creating a filesystem on a partition?**
    - [ ] Mount it
-   - [ ] Create a partition table and partition
+   - [x] Create a partition table and partition
    - [ ] Format the entire disk
    - [ ] Install an OS
 
 **Q103: What command creates an ext4 filesystem on `/dev/sdb1`?**
 
-**Answer:** ________________________________
+**Answer:** _____`sudomkfs.ext4 /dev/sdb1`___________________________
 
 **Q104: What does the `mount` command do?**
-   - [ ] Attaches a filesystem to a directory
+   - [x] Attaches a filesystem to a directory
    - [ ] Creates a new filesystem
    - [ ] Deletes a partition
    - [ ] Formats a disk
 
 **Q105: When you unmount a filesystem, is the data deleted?**
    - [ ] Yes
-   - [ ] No
+   - [x] No
 
 **Q106: What file contains permanent mount configurations for filesystems to mount at boot?**
    - [ ] `/etc/mounts`
-   - [ ] `/etc/fstab`
+   - [x] `/etc/fstab`
    - [ ] `/etc/filesystem`
    - [ ] `/boot/mounts.conf`
 
 **Q107: What are three common filesystem types?**
-   - [ ] NTFS, FAT32, ext4
+   - [x] NTFS, FAT32, ext4
    - [ ] TCP, UDP, HTTP
    - [ ] MBR, GPT, LVM
    - [ ] BIOS, UEFI, GRUB
 
 **Q108: What is the standard filesystem for modern Linux?**
    - [ ] ext3
-   - [ ] ext4
-   - [ ] NTFS
+   - [correct] ext4
+   - [x] NTFS
    - [ ] FAT32
 
 ---
@@ -719,26 +719,26 @@ ID,Name,Department,Salary,JoinDate
 ## 16. BIOS and UEFI:
 
 **Q110: What does BIOS stand for?**
-   - [ ] Basic Input Output System
+   - [x] Basic Input Output System
    - [ ] Binary Integrated Operating System
    - [ ] Boot Installation Operating System
    - [ ] Base Input Operating Sequence
 
 **Q111: Where does BIOS store the bootloader?**
-   - [ ] In the MBR (first sector of disk)
+   - [x] In the MBR (first sector of disk)
    - [ ] In an EFI partition
    - [ ] In the root directory
    - [ ] In RAM
 
 **Q112: Which boot firmware supports Secure Boot?**
-   - [ ] BIOS
+   - [x] BIOS
    - [ ] UEFI
    - [ ] Both
    - [ ] Neither
 
 **Q114: What partition scheme does BIOS typically use?**
    - [ ] GPT
-   - [ ] MBR
+   - [x] MBR
    - [ ] LVM
    - [ ] ext4
 
@@ -746,7 +746,7 @@ ID,Name,Department,Salary,JoinDate
    - [ ] MBR
    - [ ] EFI System Partition (ESP)
    - [ ] Root partition
-   - [ ] Boot sector
+   - [x] Boot sector
 
 ---
 
@@ -754,24 +754,24 @@ ID,Name,Department,Salary,JoinDate
 
 **Q116: What is the first process that starts in Linux?**
    - [ ] bash
-   - [ ] systemd/init
+   - [x] systemd/init
    - [ ] kernel
    - [ ] grub
 
 **Q117: What loads the Linux kernel into memory?**
    - [ ] BIOS
-   - [ ] Bootloader (GRUB)
+   - [x] Bootloader (GRUB)
    - [ ] systemd
    - [ ] init
 
 **Q118: What is the role of initramfs during boot?**
    - [ ] Provides a graphical interface
-   - [ ] Provides drivers and tools to mount the root filesystem
+   - [x] Provides drivers and tools to mount the root filesystem
    - [ ] Manages user logins
    - [ ] Starts network services
 
 **Q119: In what order do these boot steps occur?**
-   - [ ] BIOS/UEFI → Bootloader → Kernel → Init system
+   - [x] BIOS/UEFI → Bootloader → Kernel → Init system
    - [ ] Kernel → BIOS → Bootloader → Init system
    - [ ] Bootloader → BIOS → Kernel → Init system
    - [ ] Init system → Kernel → BIOS → Bootloader
@@ -782,13 +782,13 @@ ID,Name,Department,Salary,JoinDate
 
 **Q121: What does `apt update` do?**
    - [ ] Updates all installed packages
-   - [ ] Refreshes the package list from repositories
+   - [x] Refreshes the package list from repositories
    - [ ] Updates the kernel
    - [ ] Updates only security packages
 
 **Q123: Write a command to install a package named "nginx" using apt.**
 
-**Answer:** ________________________________
+**Answer:** ______`sudo apt install nginx`____________________________
 
 ---
 
@@ -796,7 +796,7 @@ ID,Name,Department,Salary,JoinDate
 
 **Q127: What is the PATH environment variable?**
    - [ ] The current directory location
-   - [ ] A list of directories where the system looks for executables
+   - [x] A list of directories where the system looks for executables
    - [ ] The path to the home directory
    - [ ] A list of recently used commands
 
@@ -804,11 +804,11 @@ ID,Name,Department,Salary,JoinDate
    - [ ] `echo $PATH`
    - [ ] `printenv PATH`
    - [ ] `cat $PATH`
-   - [ ] Both a and b
+   - [x] Both a and b
 
 **Q129: What character separates directories in the PATH variable?**
    - [ ] Semicolon (;)
-   - [ ] Colon (:)
+   - [correct] Colon (:)
    - [ ] Comma (,)
    - [x] Pipe (|)
 
@@ -820,7 +820,7 @@ ID,Name,Department,Salary,JoinDate
 
 **Q131: What does the `which` command do?**
    - [ ] Shows which user is logged in
-   - [ ] Shows the full path to an executable
+   - [correct] Shows the full path to an executable
    - [x] Shows which processes are running
    - [ ] Shows which files are open
 
@@ -829,19 +829,19 @@ ID,Name,Department,Salary,JoinDate
 ## 20. Aliases and Shortcuts:
 
 **Q133: What is an alias in bash?**
-   - [ ] A shortcut name for a command or series of commands
+   - [correct] A shortcut name for a command or series of commands
    - [x] An alternative username
    - [ ] A symbolic link
    - [ ] A variable
 
 **Q134: Write a command to create an alias called "ll" that runs "ls -la".**
 
-**Answer:** ________________________________
+**Answer:** ______alias ll=`ls -la`__________________________
 
 **Q135: Where should you save aliases permanently?**
    - [ ] `/etc/profile`
    - [x] `/etc/aliases`
-   - [ ] `~/.bash_aliases`
+   - [correct] `~/.bash_aliases`
 
 
 **Q137: If you have a program called "shivermetimbers" but want to type "timbers" instead, what's a good solution?**
@@ -855,20 +855,20 @@ ID,Name,Department,Salary,JoinDate
 ## 22. Additional System Commands:
 
 **Q143: What does the `df` command show?**
-   - [ ] Disk free space
+   - [x] Disk free space
    - [ ] Directory files
    - [ ] Data format
    - [ ] Disk fragments
 
 **Q146: What does `history | grep ssh` do?**
    - [ ] Shows SSH configuration
-   - [ ] Searches command history for lines containing "ssh"
+   - [x] Searches command history for lines containing "ssh"
    - [ ] Connects via SSH
    - [ ] Lists SSH keys
 
 **Q147: What does the `man` command do?**
    - [ ] Manages users
-   - [ ] Shows manual pages for commands
+   - [x] Shows manual pages for commands
    - [ ] Manipulates files
    - [ ] Monitors system
 
@@ -878,13 +878,13 @@ ID,Name,Department,Salary,JoinDate
 
 **Q149: What is the difference between `>` and `>>` in output redirection?**
    - [ ] No difference
-   - [ ] `>` overwrites; `>>` appends
+   - [x] `>` overwrites; `>>` appends
    - [ ] `>` appends; `>>` overwrites
    - [ ] `>` is for errors; `>>` is for output
 
 **Q152: What does the `find` command do?**
    - [ ] Searches for text within files
-   - [ ] Searches for files and directories
+   - [x] Searches for files and directories
    - [ ] Finds duplicate files
    - [ ] Recovers deleted files
 
@@ -893,14 +893,14 @@ ID,Name,Department,Salary,JoinDate
 ## 25. Permissions and Security:
 
 **Q159: What do the numbers in `chmod 644` represent?**
-   - [ ] Owner: rw-, Group: r--, Other: r--
+   - [x] Owner: rw-, Group: r--, Other: r--
    - [ ] Owner: r--, Group: rw-, Other: rw-
    - [ ] Owner: rwx, Group: r--, Other: r--
    - [ ] Everyone: rw-
 
 **Q160: What does `sudo` do?**
    - [ ] Switches user
-   - [ ] Runs a command with superuser privileges
+   - [x] Runs a command with superuser privileges
    - [ ] Shuts down the system
    - [ ] Shows user details
 
@@ -908,7 +908,7 @@ ID,Name,Department,Salary,JoinDate
    - [ ] `sudo su`
    - [x] `su root`
    - [ ] `su -`
-   - [ ] All of the above
+   - [correct] All of the above
 
 **Q162: What permission is needed to execute a script?**
    - [ ] Read
@@ -917,7 +917,7 @@ ID,Name,Department,Salary,JoinDate
    - [ ] All of the above
 
 **Q163: What does `chmod u+x file.sh` do?**
-   - [ ] Adds execute permission for the user (owner)
+   - [x] Adds execute permission for the user (owner)
    - [ ] Removes execute permission
    - [ ] Adds execute for everyone
    - [ ] Changes the user owner
@@ -928,19 +928,18 @@ ID,Name,Department,Salary,JoinDate
 
 **Q164: [BONUS] Write a complete command pipeline that lists all `.log` files in `/var/log`, searches for lines containing "ERROR", and counts how many matches are found.**
 
-**Answer:** ________________________________
+**Answer:** ______ls/var/log/*.log | xargs grep "ERROR" | wc -l__________________________
 
 **Q165: [BONUS] Explain what this command does and why each part is important:**
 ```bash
 sudo find / -name "*.tmp" -type f -mtime +7 -delete
 ```
 
-**Answer:** ________________________________
+**Answer:** _____Explanation: sudo -> runs the command with superuser privileges, find/ -> searches the entire filesystem, name "*.tmp" looks for files ending in .tmp, type f -> restricts search to files only, mtime +7 -> targets files older than 7 days, delete -> removes those files.___________________________
 
 
 **Q167: [BONUS] What is the difference between a hard link and a symbolic link?**
-
-**Answer:** ________________________________
+**Answer:** ______Hard Link: Points directly to the same inode (data on disk); both are identical. -Symbolic Link (Symlink): A shortcut that references another file path; breaks if the target is removed._________________________
 
 ---
 
